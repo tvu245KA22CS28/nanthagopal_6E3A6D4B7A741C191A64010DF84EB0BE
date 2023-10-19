@@ -1,9 +1,11 @@
-# leap year
-print("enter the year:")
-y=int(input())
-if y%4==0 and y%100!=0:
-     print("/n it is a leap year")
-elif y%400==0:
-     print("/n it is a leap year")
-else:
-     print("/n it is not a leap year")
+P = int( input("Please enter value for P: "))  
+Q = int( input("Please enter value for Q: "))  
+   
+# To swap the value of two variables  
+# we will user third variable which is a temporary variable  
+temp_1 = P  
+P = Q  
+Q = temp_1  
+   
+print ("The Value of P after swapping: ", P)  
+print ("The Value of Q after swapping: ", Q)
